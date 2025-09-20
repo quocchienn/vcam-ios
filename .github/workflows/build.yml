@@ -1,0 +1,52 @@
+name: Build Packages
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-packages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (full history)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Install dpkg-scanpackages
+        run: sudo apt-get update && sudo apt-get install -y dpkg-dev bzip2
+
+      - name: Generate Packages files
+        run: |
+          mkdir -p debs
+          dpkg-scanpackages ./debs > Packages
+          gzip -c9 Packages > Packages.gz
+          bzip2 -c9 Packages > Packages.bz2
+
+      - name: Configure git identity
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Pull (rebase) to avoid non-fast-forward
+        run: |
+          git fetch origin main
+          git pull --rebase --autostash origin main || true
+
+      - name: Commit generated files (if changed)
+        run: |
+          git add -A Packages Packages.gz Packages.bz2 || true
+          git diff --cached --quiet && echo "No changes." || git commit -m "chore(ci): auto-generate Packages"
+
+      - name: Push back to main
+        run: |
+          git push origin HEAD:main || (git pull --rebase --autostash origin main && git push origin HEAD:main)
