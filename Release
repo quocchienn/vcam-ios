@@ -1,0 +1,9 @@
+Origin: Quốc Chiến Repo
+Label: Quốc Chiến Vcam
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm iphoneos-arm64
+Components: main
+Description: Repo Sileo của Quốc Chiến
+Icon: https://quocchienn.github.io/vcam-ios/assets/logo.png
