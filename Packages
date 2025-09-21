@@ -1,3 +1,18 @@
+Package: com.vcamios.vcamiosrootless
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: Vcam iOS
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/vcamrootless.deb
+Size: 79360
+MD5sum: 421fe8fef6b9df0fbd97ab8a0104c87e
+SHA1: 9d04a9c39af6dd7cd04f314026df574bb6b943d9
+SHA256: c399a8351fed52f3a882581e131a824d3979675dbcc33fce3dafcb17007b304a
+Section: Tweaks
+Description: VCAM- Cách dùng:Nhấn nhanh cộng trừ (nút âm lượng + -, Volumn + -)
+Author: quocchienn
+Name: VCAM iOS (Rootless)
+
 Package: com.yourepo.vcamios.vcamaudiorootfull
 Version: 1.0-2
 Architecture: iphoneos-arm
