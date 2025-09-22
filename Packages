@@ -1,3 +1,147 @@
+Package: com.hw.adguard
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: 🅷🆆
+Installed-Size: 1756
+Depends: mobilesubstrate
+Filename: ./debs/AdGuard.deb
+Size: 346764
+MD5sum: 14039e8cf422dc46a54893ad8f70555a
+SHA1: 58bbd41b3b68800d13a9d12921aaa6fdf60e1102
+SHA256: 5468e5c835efd655f8f636a6c9942aaa455bd5f1b25d5fe330bd61002631b993
+Section: Tweaks
+Description: 解锁会员
+Author: 🅷🆆
+Name: 🅷🆆 AdGuard
+
+Package: com.hw.b612
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: 🅷🆆
+Installed-Size: 396
+Depends: mobilesubstrate
+Filename: ./debs/com.hw.b612_0.0.1_iphoneos-arm64.deb
+Size: 57988
+MD5sum: 176884f7c121b225f458e48c4f1cbb4c
+SHA1: 64b27548d26a8fa4931e5525c0499a6115e39074
+SHA256: 4d97c4ac040bd767f2bac02aa13d0268ba2038ddf5a742228416e0e2379ca887
+Section: Tweaks
+Description: 解锁VIP  - Tg：@HelloWorld_1024
+Author: 🅷🆆
+Name: 🅷🆆 B612相机
+
+Package: com.hw.myxjvip
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: 🅷🆆
+Installed-Size: 496
+Depends: mobilesubstrate
+Filename: ./debs/com.hw.myxjvip_0.0.1_iphoneos-arm64.deb
+Size: 78606
+MD5sum: 38b595d5009e86abe436fdb9c552b2e4
+SHA1: cffc65fab12d93ea1fc4aa0e97e50a31f76cdfb0
+SHA256: 375ecb0d5699b29af6ce669a0fde412b12eea0a0dcb5d83163ae4ae20dba4252
+Section: Tweaks
+Description: 解锁会员 - TG：@HelloWorld_1024
+Author: 🅷🆆
+Name: 🅷🆆 美颜相机
+
+Package: com.hw.photoboost
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: 🅷🆆
+Installed-Size: 580
+Depends: mobilesubstrate
+Filename: ./debs/com.hw.photoboost_0.0.1_iphoneos-arm64.deb
+Size: 100444
+MD5sum: a845e24c4d734c48079ea777c776b3b1
+SHA1: ba289714fab4f83d9938cc29b8c0ecdfdc399905
+SHA256: 8f95c9f520540c6b414ffc1116a34c3a15b04ea96f988004790e441392d44a84
+Section: Tweaks
+Description: 解锁VIP
+Author: 🅷🆆
+Name: 🅷🆆 PhotoBoost
+
+Package: com.hw.relens
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: 🅷🆆
+Installed-Size: 548
+Depends: mobilesubstrate
+Filename: ./debs/ReLens + PrettyUp.deb
+Size: 97424
+MD5sum: 74c80169b66d7e34f97fcc27b613974b
+SHA1: be4141739c319b89eb5d23af159b709d56060273
+SHA256: 010a59d52a4527f165647123c5e1c1cc23c4299dda0bb3e8b6c4dc8c0e71d49e
+Section: Tweaks
+Description: 解锁会员 - TG：@HelloWorld_1024
+Author: 🅷🆆
+Name: 🅷🆆 ReLens
+
+Package: com.hw.snapedit
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: 🅷🆆
+Installed-Size: 1288
+Depends: mobilesubstrate
+Filename: ./debs/com.hw.snapedit_0.0.1_iphoneos-arm64.deb
+Size: 257800
+MD5sum: 443b1191b696d590ea9085a04bdbfffa
+SHA1: c2a357b8e515caea8cac4e037a368f7cebc662db
+SHA256: 2d0e7a7f862ed0ef16ca530287584d3a3529c4fafda8fcb63e219d23e8c0a360
+Section: Tweaks
+Description: 解锁VIP
+Author: 🅷🆆
+Name: 🅷🆆 SnapEdit
+
+Package: com.hw.videoshow
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: 🅷🆆
+Installed-Size: 400
+Depends: mobilesubstrate
+Filename: ./debs/com.hw.videoshow_0.0.1_iphoneos-arm64.deb
+Size: 60354
+MD5sum: 2804a555b5b441ac95e0bb651a9f17b2
+SHA1: ea92766b52d691581d98ff803bbf7943e26821e0
+SHA256: 4b56923597b88b6e02022dec921cd4bc96d8b7a223a508da67d74e68001e7ffb
+Section: Tweaks
+Description: 解锁SVIP - TG：@HelloWorld_1024
+Author: 🅷🆆
+Name: 🅷🆆 VideoShow
+
+Package: com.hw.vivacut
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: 🅷🆆
+Installed-Size: 364
+Depends: mobilesubstrate
+Filename: ./debs/com.hw.vivacut_0.0.1_iphoneos-arm64.deb
+Size: 53566
+MD5sum: cc6c7fe19c676936a567f5884a2fd159
+SHA1: 81f08f8e843083c0d996d451c776de271e07bcb2
+SHA256: 0c67735ae1ccef39571e8a30c2fe4330f903e2cea7868a35ca9fbe3f5762f2b6
+Section: Tweaks
+Description: 解锁Pro
+Author: 🅷🆆
+Name: 🅷🆆 VivaCut
+
+Package: com.hw.vmake
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: 🅷🆆
+Installed-Size: 1288
+Depends: mobilesubstrate
+Filename: ./debs/Vmake_ AI Talking Video Editor.deb
+Size: 255706
+MD5sum: 3ff91269642353e43149851d055a6869
+SHA1: 91548092c00b874f3f5e1c2ad879818c1837b0ea
+SHA256: 15a07b59c082271ed8c0a504f4f7cb54fb5eaf856698ab8a84936e29b211ba9e
+Section: Tweaks
+Description: 解锁VIP
+Author: 🅷🆆
+Name: 🅷🆆 Vmake
+
 Package: com.vcamios.vcamiosrootless
 Version: 1.0.2
 Architecture: iphoneos-arm64
