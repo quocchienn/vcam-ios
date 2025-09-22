@@ -1,3 +1,20 @@
+Package: com.bvn.autotouch
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: glesign
+Installed-Size: 976
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.bvn.autotouch_1.0.1_iphoneos-arm64.deb
+Size: 143118
+MD5sum: 5ce4075c7f42b183b8dfe3509acec091
+SHA1: ad3fb8b2d4ae5d55abdfdbeed9f595fa45231b62
+SHA256: 17a93cee5587da0c9dbcf7d14a92eea7f2b64d31597c8db685ee5e7f75eaaab1
+Section: Tweaks
+Description: Crack Tweak Autotouch
+Author: glesign
+Icon: https://bvnsupport.github.io/depictions/sectionIcons/tinhchinhh1.png
+Name: AutoTouch Crack
+
 Package: com.hw.adguard
 Version: 0.0.1
 Architecture: iphoneos-arm64
