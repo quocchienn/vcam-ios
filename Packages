@@ -227,21 +227,24 @@ Author: TIGI Software
 Name: Filza File Manager
 
 Package: com.tigisoftware.filza64bit
-Version: 4.0.1-4
-Architecture: iphoneos-arm
-Maintainer: TIGI Software
+Version: 4.0.1-5K
+Architecture: iphoneos-arm64
+Maintainer: Biện Văn Nhật
 Installed-Size: 23200
 Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
-Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
-Filename: ./debs/com.tigisoftware.filza64bit_4.0.1-4_iphoneos-arm.deb
-Size: 8701068
-MD5sum: f7d33ec0b35a3398401d5755165a4298
-SHA1: d34724796db536b91a6f1ed242088f0bfaeb1995
-SHA256: 1a20cd1ca85ac0f5d7069d548438b4efa82ecce5d7bd640b3a7f07af1f5faca0
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39, com.bienvannhat.filza64bit
+Filename: ./debs/com.tigisoftware.filza64bit_4.0.1-5K_iphoneos-arm64 2.deb
+Size: 8707346
+MD5sum: aff853787f7dc793d045fe7a0c758a5b
+SHA1: 076daa9e6b36263aaa0de4cc6f1d66eaa0c9355d
+SHA256: a948d1c997246b6c1853f1a47bdbc4901e1c8d040d9c799da65fbaf9bd433f92
 Section: Utilities
-Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 11+. This version only supports 64-bit devices
+Description: Trình quản lý tệp cho iPhone, iPad, iPod Touch. Hỗ trợ iOS 11+. Phiên bản này chỉ hỗ trợ các thiết bị 64-bit
 Author: TIGI Software
-Name: Filza File Manager 64-bit
+Depiction: http://bvnsupport.github.io/infodeb/Filza/?p=info
+Icon: file:///var/jb/Library/IconRepo/tienichh1.png
+Name: Filza File Manager 64-bit (Rootless)
+Sileodepiction: https://bvnsupport.github.io/sileodepictions/Filza.json
 
 Package: com.vcamios.vcamiosrootless
 Version: 1.0.2
