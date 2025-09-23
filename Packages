@@ -178,6 +178,23 @@ Description: 解锁VIP
 Author: 🅷🆆
 Name: 🅷🆆 Vmake
 
+Package: com.quocchienn.filza
+Version: 4.0.1-2
+Architecture: iphoneos-arm
+Maintainer: quocchienn
+Installed-Size: 34948
+Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
+Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza39
+Filename: ./debs/com.filza.deb
+Size: 11998822
+MD5sum: f76e3f058de3eeaf494a6bc06b0340b5
+SHA1: 99a89b3949b661adee93408e7e49581403638dd0
+SHA256: bf9fabee18e340abf0d8c955402ffc6342b57c25a8e0e6e2a5e07de46f681def
+Section: Utilities
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
+Author: quocchienn
+Name: Filza File Manager
+
 Package: com.vcamios.vcamiosrootless
 Version: 1.0.2
 Architecture: iphoneos-arm64
