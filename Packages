@@ -1,3 +1,39 @@
+Package: com.BIENVANNHAT.autotouch
+Version: 10.4
+Architecture: iphoneos-arm
+Maintainer: Biện Văn Nhật
+Installed-Size: 100716
+Depends: firmware (>= 8.0), mobilesubstrate, com.rpetrich.rocketbootstrap (>> 1.0.6)
+Conflicts: com.repo.xarold.com.autotouch8, repo.biteyourapple.net.autotouch8, repo.biteyourapple.net.autotouch, com.hackyouriphone.autotouch8
+Filename: ./debs/com.BIENVANNHAT.autotouch_10.4_iphoneos-arm.deb
+Size: 44510330
+MD5sum: 1cdd2619efe30ca200edff19dab43be1
+SHA1: fb07bac759133a49631c473f346b94971aef8c03
+SHA256: 668e8bc721464aa921b3f1d9642686ac55d7577f8466d7f25d8cfc47e20ce72a
+Section: Utilities
+Priority: optional
+Description: AutoClick cho iOS.Sau khi cài đặt, bạn cần mở AutoTouch trên màn hình chính và chọn Cài đặt > Giấy phép và nhấn vào tải xuống giấy phép đế kích hoạt AutoTouch. Ghi lại, phát lại, mô phỏng chạm/nhấn trên mọi nơi của thiết bị, chạy tập lệnh Lua. Phiên bản hiện tại được hỗ trợ cho iOS 9 - 14
+Author: Kent Krantz <kentkrantz@gmail.com>
+Icon: file:///Applications/Cydia.app/Sections/tienichh1.png
+Name: AutoTouch VH
+
+Package: com.bvn.autotouch
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: glesign
+Installed-Size: 976
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.bvn.autotouch_1.0.1_iphoneos-arm64.deb
+Size: 143118
+MD5sum: 5ce4075c7f42b183b8dfe3509acec091
+SHA1: ad3fb8b2d4ae5d55abdfdbeed9f595fa45231b62
+SHA256: 17a93cee5587da0c9dbcf7d14a92eea7f2b64d31597c8db685ee5e7f75eaaab1
+Section: Tweaks
+Description: Crack Tweak Autotouch
+Author: glesign
+Icon: https://bvnsupport.github.io/depictions/sectionIcons/tinhchinhh1.png
+Name: AutoTouch Crack
+
 Package: com.hw.adguard
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -203,4 +239,26 @@ Section: Tweaks
 Description: Fake Camera iPhone Activate by pressing volume +- button
 Author: 34306 <vcamios@gmail.com>
 Name: Vcamios Audio (Roothide)
+
+Package: combvnrepo.autotouch.ios8
+Version: 8.5.5K
+Architecture: iphoneos-arm64
+Maintainer: BVN Repo
+Installed-Size: 135228
+Depends: firmware (>= 12.2) | org.swift.libswift (>= 5.0), ellekit, com.bvn.autotouch
+Conflicts: com.repo.xarold.com.autotouch8, repo.biteyourapple.net.autotouch8, repo.biteyourapple.net.autotouch, com.hackyouriphone.autotouch8
+Filename: ./debs/combvnrepo.autotouch.ios8_8.5.5K_iphoneos-arm64.deb
+Size: 60271536
+MD5sum: 942f587f38ff184d04d0797825882069
+SHA1: 550193c7c8c6e13fdc5f96de43350d617cf5127f
+SHA256: f61d4ac842f49a5d6cb20868af04c9cd22269238e6552da4c6c49110dc567ee9
+Section: Utilities
+Priority: optional
+Homepage: https://autotouch.net
+Description: Record and playback touch operations, play macro scripts automatically.
+Author: Kent Krantz <kentkrantz@gmail.com>
+Depiction: http://bvnsupport.github.io/infodeb/AutoTouch/?p=info
+Icon: https://bvnsupport.github.io/depictions/sectionIcons/tienichh1.png
+Name: AutoTouch VH(Rootless)
+Sileodepiction: https://bvnsupport.github.io/sileodepictions/AutoTouch.json
 
