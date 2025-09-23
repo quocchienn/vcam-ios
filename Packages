@@ -194,6 +194,30 @@ Description: 解锁VIP
 Author: 🅷🆆
 Name: 🅷🆆 Vmake
 
+Package: com.lenglengyu.voicechangerx-rootless
+Version: 2.4-3K
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 1421
+Depends: firmware(>= 11.0), mobilesubstrate, preferenceloader, com.yourepo.lly.crack-rootless
+Conflicts: com.hackyouriphone.limneosos, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Filename: ./debs/com.lenglengyu.voicechangerx-rootless.deb
+Size: 449116
+MD5sum: a472a671d9a945b7b6f71742620c2e30
+SHA1: 22aa3b4d59a78a8e0adecdd9a5c56ac8a999c4cb
+SHA256: 852b40f6f03176b69b1a1c20ecaa961a95f17e6e8e3efcb23cd0b26df0f8b564
+Section: Fugu15
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=voicechangerxDp
+Description: Change your voice during a call!
+Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: https://repo.lenglengyu.top/packageInfo/crackit.html
+Dev: limneos
+Icon: file:///Library/PreferenceBundles/voicechanger.bundle/icon@2x.png
+Name: VoiceChanger XS破解版-Rootless (iOS 11 to 16)
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/crackitsileo
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.tigisoftware.appdatamanager
 Version: 1.8.2-4
 Architecture: iphoneos-arm
@@ -335,4 +359,24 @@ Depiction: http://bvnsupport.github.io/infodeb/AutoTouch/?p=info
 Icon: https://bvnsupport.github.io/depictions/sectionIcons/tienichh1.png
 Name: AutoTouch VH(Rootless)
 Sileodepiction: https://bvnsupport.github.io/sileodepictions/AutoTouch.json
+
+Package: net.repobvn.voicechangerx-rootless
+Version: 2.4-3
+Architecture: iphoneos-arm64
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Installed-Size: 1420
+Depends: mobilesubstrate, preferenceloader, com.bvn.limneos-crack
+Conflicts: com.hackyouriphone.limneosos, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos, org.mr.unsubsrl
+Filename: ./debs/net.repobvn.voicechangerx-rootless_2.4-3_iphoneos-arm64.deb
+Size: 449618
+MD5sum: 308de8cfba0a7a517f3a67662f8d7bea
+SHA1: 5ad5fcfe05110a4a293678b8e404eae19c770192
+SHA256: fde53b5cd67c9485f677ad4c6752e1c45a487c89b6e3fb0e49ea681add5df03c
+Section: Tweaks
+Description: Thay đổi giọng nói của bạn trong khi gọi!
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: http://limneos.net/cydia/depiction.php?package=net.limneos.voicechangerx
+Icon: file:///var/jb/Library/IconRepo/tinhchinhh1.png
+Mainlibmd5: 8131809d9825837c841f8f54015f50b4
+Name: VoiceChanger XS (Rootless) (iOS 11 to 16)
 
