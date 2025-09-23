@@ -210,21 +210,27 @@ Author: TIGI Software
 Name: Apps Manager
 
 Package: com.tigisoftware.filza
-Version: 4.0.1-2
-Architecture: iphoneos-arm
-Maintainer: TIGI Software
-Installed-Size: 34948
-Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
-Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza39
-Filename: ./debs/com.filza_4.0.1-2_iphoneos-arm.deb
-Size: 13929994
-MD5sum: c68a629c82d46f5a49ec8c93b750bb92
-SHA1: 677bae75af27ed30af0934048c439565498a1908
-SHA256: 3bed517bf606e7849632b96a727fb1f4e105f6c70d8007dfc4f6789681db98f9
+Version: 4.0.1-3K
+Architecture: iphoneos-arm64
+Maintainer: BVN Repo
+Installed-Size: 31822
+Depends: firmware (>= 7.0), zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza39, com.bvnsupport.filza
+Filename: ./debs/com.tigisoftware.filza_4.0.1-3K_iphoneos-arm64.deb
+Size: 13915516
+MD5sum: 2f11c0946c874eb1c4a4bb73ba6eb763
+SHA1: db14e45e190d25844aaf3069edd00966f045d91e
+SHA256: a62265e720bd30a5b2c5b55257d9820483c8b82cfe79548f373dd1afb703e3ab
 Section: Utilities
+Priority: optional
 Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
-Author: TIGI Software
+Tag: purpose::uikit
+Author: TIGI Software <satashi2009@gmail.com>
+Depiction: http://bvnsupport.github.io/infodeb/Filza1/?p=info
+Dev: satashi2009
+Icon: file:///var/jb/Library/IconRepo/tienichh1.png
 Name: Filza File Manager
+Sileodepiction: https://bvnsupport.github.io/sileodepictions/Filza1.json
 
 Package: com.tigisoftware.filza64bit
 Version: 4.0.1-5K
